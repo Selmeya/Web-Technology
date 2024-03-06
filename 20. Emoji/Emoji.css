@@ -1,0 +1,37 @@
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+ }
+
+ .container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  border: 2px solid #333;
+ }
+
+ .emoji {
+  position: absolute;
+  font-size: 3em;
+ }
+
+ .emoji1 {
+  top: 50px;
+  left: 50px;
+ }
+
+ .emoji2 {
+  top: 100px;
+  right: 50px;
+ }
+
+ .emoji3 {
+  bottom: 50px;
+  left: 100px;
+ }
+ .emoji4 {
+  bottom: 100px;
+  right: 100px;
+ }

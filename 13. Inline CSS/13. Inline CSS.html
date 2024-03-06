@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Inline and Internal CSS Example</title>
+ <link rel="stylesheet" type="text/css" href="external_styles.css">
+ <style>
+  /* Internal CSS */
+  body {
+   font-family: Arial, sans-serif;
+   background-color: #f0f0f0;
+   margin: 0;
+   padding: 0;
+  }
+
+  h1 {
+   color: #007bff;
+  }
+
+  /* Inline CSS */
+  .inline-style {
+   border: 2px solid #007bff;
+   padding: 10px;
+   margin: 20px;
+   background-color: #fff;
+   text-align: center;
+  }
+ </style>
+</head>
+
+<body>
+
+ <h1>This heading uses internal CSS</h1>
+
+ <div class="inline-style" style="color: red;">
+  This div uses inline CSS for styling.
+ </div>
+
+ <p>This paragraph uses the default styles defined in the internal CSS.</p>
+
+</body>
+
+</html>
